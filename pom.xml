@@ -5,21 +5,21 @@
   <version>0.0.2-SNAPSHOT</version>
   <packaging>war</packaging>
   <distributionManagement>
-        <repository>
+       <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
-        <repository>
+        <snapshotRepository>
             <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://localhost:8081/nexus/content/repositories/aashish/</url>
-        </repository>
-        <snapshotRepository>
+       </snapshotRepository>
+       <!-- <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
+        </snapshotRepository>-->
     </distributionManagement>
   <dependencies>
   	<dependency>
